@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="/food_image/food_logo.jpg">
+    <style>
+        html {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .title {
+            height: 150px;
+            /* background-color: #ebc218; */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .title>h1 {
+            font-weight: bold;
+            color: #fdd223;
+            text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        }
+
+        .foodImg {
+            /* margin: 35px 0px 0px 0px; */
+            width: 100%;
+            height: 650px;
+        }
+
+        .foodImg img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+            margin: auto;
+        }
+
+
+        .recipe_time {
+            background-color: #fdd223;
+            margin-top: 85px;
+            /* height: 50px; */
+            /* width: 100%; */
+        }
+
+        .col {
+            height: 100%;
+        }
+
+        .recipe_col {
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .div_Recipe {
+            border-left: 1px solid orange;
+            border-right: 1px solid orange;
+            border-bottom: 1px solid orange;
+        }
+
+        .flex_left>h5, .flex_left>h6, .flex_right>h5 {
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container mt-2 title">
+        <h1>Neer Dosa</h1>
+    </div>
+
+    <div class="container d-flex foodImg mt-2"><img src="/food_image/neer_dosa.jpg" alt="Food"></div>
+
+
+    <div class="container recipe_time" style="border: 1px solid orange;">
+        <div class="row" style="height: 75px;">
+            <div class="col">
+                <div class="recipe_col">Preparation Time: 5 mins</div>
+            </div>
+            <div class="col">
+                <div class="recipe_col">Cooking Time: 12 mins</div>
+            </div>
+            <div class="col">
+                <div class="recipe_col">Total Time: 17 mins</div>
+            </div>
+            <div class="col">
+                <div class="recipe_col">Servings: 4 (10 Dosas)</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mb-5 div_Recipe">
+    <div class="container d-flex flex_main">
+        <div class="flex-fill">
+            <div class="flex_left mt-5 ms-5">
+            <h5>Ingredients</h5>
+            <ul>
+              <li>1/3 cup raw rice, soaked for 4 hours and drained</li>
+              <li>Salt to taste</li>
+              <li>Oil for greasing</li>
+            </ul>
+        </div>
+        </div>
+
+        <div class="flex-fill">
+            <div class="flex_right mt-5 mx-4">
+                <h5>Method</h5>
+                <ol>
+                    <li>To make <b>Neer Dosa</b>, combine the drained raw rice and 1/2 cup of water in a mixer and blend till smooth.</li>
+                    <li>Transfer the mixture into a deep bowl, add 1 to 1/2 cups of water and salt and mix well.</li>
+                    <li>Heat a non-stick tawa (griddle) till red hot, sprinkle a little water on the tawa (griddle) and wipe it off gently using a muslin cloth.</li>
+                    <li>Grease the tawa (griddle) with a little oil and smear it by using a cut onion.</li>
+                    <li>Pour approx. 1/3 cup (approx. 5 tbsp) of the batter on it and tilt the tawa (griddle) in a circular motion to make a round dosa.</li>
+                    <li>Cover with a lid and cook on a medium flame for 1 minute. Fold the dosa into a triangle.</li>
+                    <li>Repeat with the remaining batter to make 9 more dosas.</li>
+                    <li>Serve <b>Neer Dosa</b> immediately with chutney.</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+
+    <div class="container m-5 d-block mx-auto video_container" style="width: 65%; height: 400px;">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/gbKuZFWtcf4?si=d8SaHG2OFAI0dt_x" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+
+
+</div>
+
+</body>
+
+</html>
+
